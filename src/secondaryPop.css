@@ -1,0 +1,69 @@
+.mainUnitDropDown{
+    height:100%;
+    flex:5;
+}
+
+.secForm{
+    height: 55%;
+    width: 86%;
+    flex-direction: row;
+    display: flex;
+
+    top:5%;
+    left:7%;
+    position: relative;
+}
+.exitButtonx
+{
+    background-color: red;
+    color:white;
+    float: right;
+    width: 10%;
+    height:100%;
+    resize: none;
+    text-align: center;
+    display: table;
+}
+.formDivwLabel{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    padding-right: 5%;
+}
+
+.confirmButton{
+    background-color: #54D3FF;
+    border: none;
+    height: 16%;
+    width:25%;
+    position: absolute;
+    bottom: 2%;
+    left: 37.5%;
+}
+
+.limContainer{
+    display:flex;
+    width: 50%;
+    height:10%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left: 30%;
+    bottom: 30%;
+}
+.limInput{
+    flex:2;
+    border:1px solid black;
+    height: 80%;
+}
+.limPref{
+    flex:1;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.limSuff{
+    flex:2;
+    padding-left: 1%;
+}

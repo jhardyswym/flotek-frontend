@@ -1,0 +1,139 @@
+.modal
+{
+    background-color: white;
+    position: fixed;
+    margin: 0 auto;
+    height: 60%;
+    width: 70%;
+    border-radius: 0;
+    border: 2px solid black;
+    z-index: 10;
+    padding: 0;
+}
+
+.modal_content
+{
+    
+    float:bottom;
+    margin: 0 auto;
+    padding:0%;
+    height:100%;
+    width: 100%;
+}
+
+.modalTopBar
+{
+    
+    float:top;
+    height: 10%;
+    width:100%;
+}
+
+.exitButton
+{
+    background-color: red;
+    color:white;
+    float: right;
+    width: 10%;
+    height:100%;
+    text-align: center;
+    display: table;
+    overflow: hidden;
+    padding: 0;
+}
+
+.modalTitle
+{
+    
+    float:left;
+    width:90%;
+    height:100%;
+    text-align: center;
+    
+    background-color:#93c5cf;
+    padding:0;
+    display:table;
+}
+
+.titletext
+{
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.keyBucket
+{
+    float:bottom;
+    height:90%;
+    width:100%;
+    
+
+}
+.keyOrg
+{
+    position: relative;
+  
+    height:80%;
+    width: 80%;
+    float:bottom;
+    top:10%;
+    
+}
+
+.kTableCell
+{
+    
+    height:20%;
+}
+
+.entitle
+{
+    height: 50%;
+    float: left;
+    width: 55%;
+    text-align: right;
+    
+}
+
+.entxt
+{
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+    
+    top:50%;
+}
+
+.entry
+{
+  height:90%;
+  float: left;
+  width:40%;
+  top:50%;
+  
+  border: 1px solid black;
+
+
+}
+
+.buttonDiv
+{
+    position: relative;
+
+    height:15%;
+    width: 20%;
+    left: 35%;
+
+}
+
+.saveButton
+{
+    height: 100%;
+    width: 100%;
+    border:none;
+    background-color:  #54D3FF;
+}

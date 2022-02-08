@@ -1,0 +1,36 @@
+.selectDrop{
+  
+    width: 40%;
+    left:30%;
+}
+.seldiv{
+   text-align: center;
+
+}
+.selectedSpan{
+    text-align: center;
+    font-size: large;
+    color:dodgerblue;
+}
+.listTitle{
+
+    text-align: center;
+    font-size: 18px;
+}
+
+.calButton {
+    flex:content;
+    border:none;
+    height: 40px;
+    padding: 10px;
+    font-size: large;
+  }
+
+.butCont{
+    flex:1;
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    align-content: center;
+}

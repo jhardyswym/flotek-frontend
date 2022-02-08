@@ -1,0 +1,337 @@
+.mainHeader{
+    background-color:dodgerblue;
+    color:white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 150%;
+    padding:0;
+    margin:0;
+    border:0;
+    outline:0;
+    height:5%;
+    float: top;
+   
+
+}
+.rotateButton{
+    position: absolute;
+    float: right;
+    right:2%;
+    top:0.5%;
+    border-style: hidden;
+}
+
+.wifiButton{
+    position: absolute;
+    float: left;
+    left:0;
+    top:0.5%;
+    padding-left: 2%;
+    border-style: hidden;
+}
+.graphContainer{
+    height:100%;
+    width:100%;
+    
+}
+.graph{
+ 
+    width:100%;
+    height:70%;
+    z-index:-1;
+    left:15px;
+  
+
+}
+.grafanaEmbed{
+    position:relative;
+    margin-top:1%;
+    margin-left:3%;
+    width:90%;
+    height:100%;
+    border-style:solid;
+    
+  
+}
+.tfContainer{
+    float:bottom;
+    bottom:5%;
+    position:absolute;
+    width: 100%;
+    
+}
+
+
+
+.timeFrameButton{
+    background-color:white;
+    padding: 1% 2%;
+    border-radius: 5px;
+    border: 2px solid #A4A9AB;
+    width: 20%;
+    top: 10%;
+    float:left;
+    margin-left:10%;
+    margin-top: 5%;
+    font: 400 15px Arial;
+    cursor:pointer;
+     
+}
+
+.timeFrameButtonF{
+    background-color:white;
+    padding: 1% 2%;
+    border-radius: 5px;
+    border: 2px solid #A4A9AB;
+    width: 20%;
+    top: 10%;
+    float:left;
+    margin-left:10%;
+    margin-top: 5%;
+    font: 400 15px Arial;
+    cursor:pointer;
+    outline:none;
+    color:#34CDE5;
+    cursor: not-allowed;
+    border-color:#34CDE5;
+}
+.volguage{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    height:10%;
+    left:15%;
+    top:45%;
+}
+.guage{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    height:10%;
+    left:15%;
+    top:46%;
+}
+.flowBox{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:40%;
+    left: -7%;
+}
+.guageTitle{
+    color:white;
+    text-align: center;
+    bottom:1%;
+    font-size: 14px;
+}
+.innerFlowBox{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    height:100%;
+    background-color: blue;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+.divider{
+    position: relative;
+    height:50%;
+    width:100%;
+    
+    text-align: center;
+    font-size: 16px;
+}
+
+.innerFlowBoxL{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    height:100%;
+    background-color: white;
+    text-align: center;
+
+    font-weight: bold;
+}
+
+.innervFlowBoxL{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    height:100%;
+    background-color: white;
+    text-align: center;
+
+    font-weight: bold;
+}
+.innervFlowBox{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    width:70%;
+    height:100%;
+    background-color: blue;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+.logButton{
+    position: relative;
+    background-color:white;
+    border-radius: 50px;
+    border: 2px solid #A4A9AB;
+    width: 40%;
+
+    height:60px;
+    top: 75%;
+    float:left;
+    margin-left:6%;
+    margin-top: 1%;
+    font: 400 13px Arial;
+    cursor:pointer;
+    padding:0px;
+}
+.primeButton{
+    position: relative;
+    background-color:white;
+    border-radius: 50px;
+    border: 2px solid #A4A9AB;
+    width: 40%;
+    left: 2%;
+    height:60px;
+    top: 75%;
+    float:left;
+    margin-left:6%;
+    margin-top: 1%;
+    font: 400 13px Arial;
+    cursor:pointer;
+    padding:0px;
+}
+.hiddenButton{
+    position: relative;
+    background-color:white;
+    border-radius: 50px;
+    border: 2px solid #A4A9AB;
+    width: 40%;
+    height:60px;
+    top: 80%;
+    float:left;
+    margin-left:6%;
+    margin-top: 5%;
+    font: 400 13px Arial;
+    cursor:pointer;
+    padding:0px;
+    
+}
+
+.stopButton{
+    position: relative;
+    background-color:white;
+    border-radius: 50px;
+    border: 2px solid #A4A9AB;
+    width: 80%;
+    height:90px;
+    top: 80%;
+    float:left;
+    margin-left:8%;
+    margin-top: 1%;
+    font: 400 13px Arial;
+    cursor:pointer;
+    padding:0px;
+    
+}
+
+.tareButtonfocus{
+    position: relative;
+    background-color:white;
+    border-radius: 50px;
+    border: 2px solid #A4A9AB;
+    width: 40%;
+    height:60px;
+    top: 80%;
+    float:left;
+    margin-left:8%;
+  
+    margin-top: 5%;
+    font: 400 13px Arial;
+    cursor:pointer;
+    padding:0px;
+    outline:none;
+
+    border-color:#11a511;
+    border-width:6px;
+}
+.tareButton{
+    position: relative;
+    background-color:white;
+    border-radius: 50px;
+    border: 2px solid #A4A9AB;
+    width: 40%;
+    height:60px;
+    top: 80%;
+    float:left;
+    margin-left:8%;
+  
+    margin-top: 5%;
+    font: 400 13px Arial;
+    cursor:pointer;
+    padding:0px;
+    
+}
+.purgeButton{
+    position: relative;
+    background-color:white;
+    border-radius: 50px;
+    border: 2px solid #A4A9AB;
+    width: 40%;
+    left:2%;
+    height:60px;
+    top: 75%;
+    float:left;
+    margin-left:6%;
+    margin-top: 1%;
+    font: 400 13px Arial;
+    cursor:pointer;
+    padding:0px;
+    
+}
+.rButtonDiv
+{
+    position: relative;
+    padding:0;
+   
+    top:45%;
+
+}
+
+.logNotifierMain
+{
+    position: absolute;
+    
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 53, 53);
+    color: white;
+    height: 60px;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    font: 800 18px Arial;
+}
+
+.logNotText
+{
+    position: absolute;
+    top:30%;
+    left:35%;
+}

@@ -1,0 +1,54 @@
+.appContainer{
+  padding:0;
+  margin:0;
+  border:0;
+  outline:0;
+  height:100%;
+  width:100%;
+  font-family: Arial;
+  transform:rotate(0);
+  position:absolute;
+}
+.appContainerFlip{
+  padding:0;
+  margin:0;
+  border:0;
+  outline:0;
+  height:100%;
+  width:100%;
+  font-family: Arial;
+  transform:rotate(180deg);
+  
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+
+}
+html, body, #root, .App {
+  height: 100%;
+  width:100%;
+}
+.leftPanel{
+  position: relative;
+  float:left;
+  width:70%;
+  height:95%;
+}
+.rightPanel{
+  position: relative;
+  float:left;
+  width:30%;
+  height:95%;
+
+  background-color: #696969;
+}

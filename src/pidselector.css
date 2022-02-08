@@ -1,0 +1,154 @@
+
+.pidSection
+{
+    position: absolute;
+
+    height: 110px;
+    width: 100%;
+    top: 10%;
+  
+}
+
+.innerPidSection
+{
+ 
+    
+    width:90%;
+    height:100%;
+    margin: 0 auto;
+    
+  
+}
+
+.buttonHDiv
+{
+    position: relative;
+    height: 30%;
+    width: 100%;
+
+}
+.modeDiv
+{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    left: 30%;
+    height: 100%;
+    width: 40%;
+}
+.buttonGroup
+{
+    height: 100%;
+    width: 100%
+}
+.selButtonF
+{
+    position: relative;
+    height:100%;
+    width:50%;
+    border-radius: 3px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border:none;
+    border-right: 1px solid #454545;
+    background-color:#dbdbdb;
+    font-size: small;
+}
+
+.selButtonV
+{
+    position: relative;
+    height:100%;
+    width:50%;
+    border-radius: 3px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border:none;
+    border-left: 1px solid #454545;
+    background-color:#dbdbdb;
+    font-size: small;
+}
+
+.selButtonFh
+{
+    position: relative;
+    height:100%;
+    width:50%;
+    border-radius: 3px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border:none;
+    border-right: 1px solid #454545;
+    background-color:#54D3FF;
+    font-size: small;
+}
+
+.selButtonVh
+{
+    position: relative;
+    height:100%;
+    width:50%;
+    border-radius: 3px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border:none;
+    border-left: 1px solid #454545;
+    background-color:#54D3FF;
+    font-size: small;
+}
+
+.lowerPidSection
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 3%;
+}
+
+.flowPad
+{
+    background-color: white;
+    border: 2px solid red;
+}
+.fieldCont
+{
+    position: absolute;
+  
+    height: 100%;
+    width: 90%;
+    left: 4%;
+}
+.spField
+{
+    position: relative;
+   
+    height: 35%;
+}
+.spButton
+{
+    float: right;
+    height: 100%;
+    width: 30%;
+    border: none;
+
+    border-radius: 3px;
+
+}
+
+.settingsButton
+{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 100%;
+    border:none;
+}
+input{
+
+    background:white;
+    border:none;
+    border-radius: 2px;
+    height: 100%;
+    width: 65%;
+}
+
